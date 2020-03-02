@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
   set <- function(y) {
     x <<- y
     s <<- NULL
-  } # defines a function to set the vector, x, to a new vector, y, and resets the solve, m, to NULL
+  } # defines a function to set the matrix, x, to a new matrix, y, and resets the solve, s, to NULL
   get <- function()
   x # return x
   setinverse <-function(solve)
